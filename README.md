@@ -4,8 +4,8 @@
 # ORACLE PL-SQL
 
 - Lugar: SistemasUNI
-- Horario: DOMINGO DE 08 A 24 HORAS
-- Inicio: 24-JUN-2018
+- Horario: DOMINGO DE 08 A 14 HORAS
+- Inicio: 14-JUL-2018
 - Dirección: https://goo.gl/maps/98vwAt9NZMU2
 - Contenido: 
 - Página: https://github.com/gcoronelc/SISTUNI-PLSQL-003
@@ -42,6 +42,16 @@
 
 - Eureka App: http://gcoronelc.blogspot.pe/2016/10/eureka-cs-oracle-jdbc.html
 - Eureka Web: http://gcoronelc.blogspot.pe/2016/12/eureka-web-oracle-jdbc.html
+
+
+# ARTICULOS
+
+- Error ORA-02449: http://gcoronelc.blogspot.com/2018/06/oracle-ora-02449.html
+- Conexión con JDBC: http://gcoronelc.blogspot.com/2017/11/jdbc-conexion-con-bases-de-datos.html
+- Introducción SQL: http://gcoronelc.blogspot.com/2014/11/oracle-sql-introduccion.html
+- Consultas Básicas: http://gcoronelc.blogspot.com/2014/11/oracle-sql-consultas-basicas.html
+- Práctica de ORACLE SQL: http://gcoronelc.blogspot.com/2017/11/practica-de-oracle-sql.html
+
 
 # VIDEOS
 
