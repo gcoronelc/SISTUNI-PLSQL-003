@@ -36,6 +36,7 @@
 - Introducción a SQL: http://gcoronelc.blogspot.pe/2014/11/oracle-sql-introduccion.html
 - Creación del esquema EUREKA: http://gcoronelc.blogspot.pe/2014/11/creacion-del-esquema-eureka.html
 - Cursores con JDBC: http://gcoronelc.blogspot.pe/2014/05/java-jdbc-oracle-cursor.html
+- PL/SQL Language Reference: https://docs.oracle.com/cd/B28359_01/appdev.111/b28370/toc.htm
 
 
 # APLICACIONES 
