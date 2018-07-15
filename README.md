@@ -5,7 +5,7 @@
 
 - Lugar: SistemasUNI
 - Horario: DOMINGO DE 08 A 14 HORAS
-- Inicio: 14-JUL-2018
+- Inicio: 15-JUL-2018
 - Dirección: https://goo.gl/maps/98vwAt9NZMU2
 - Contenido: 
 - Página: https://github.com/gcoronelc/SISTUNI-PLSQL-003
