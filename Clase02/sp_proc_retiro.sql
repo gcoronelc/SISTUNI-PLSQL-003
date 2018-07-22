@@ -22,11 +22,14 @@ begin
   -- 1.- Verificar saldo
   
   select dec_cuensaldo into v_saldo
-  from cuenta where chr_cuencodigo = p_cuenta;
+  from cuenta where chr_cuencodigo = p_cuenta
+  for update;
   
   if( v_saldo < p_importe ) then
     raise_application_error(-20000,'No hay saldo suficiente.');  
   end if;
+  
+  APEX_UTIL.PAUSE(2);
   
   -- 2.- Actualizar cuenta
   
@@ -34,6 +37,8 @@ begin
   update cuenta
   set dec_cuensaldo = v_saldo
   where chr_cuencodigo = p_cuenta;
+  
+  DBMS_OUTPUT.PUT_LINE('NUEVO SALDO' || to_char(v_saldo));
   
   -- 3.- Registrar movimiento
   
