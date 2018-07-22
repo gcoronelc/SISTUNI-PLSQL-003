@@ -1,0 +1,27 @@
+Ejercicio 2.1
+====================
+
+Desarrollar un procedimiento que permita
+registrar un nuevo empleado en esquema VENTAS.
+
+
+Ejercicio 2.2
+====================
+
+Desarrollar un procedimiento que permita
+registrar una nueva venta en esquema VENTAS.
+
+
+Ejercicio 2.3
+====================
+
+Desarrollar un procedimiento que permita
+registrar una nueva cuenta. Esquema EUREKA.
+
+
+Ejercicio 2.4
+====================
+
+Desarrollar un procedimiento que permita
+registrar una nueva cuenta. Esquema EUREKA.
+

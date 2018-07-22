@@ -1,0 +1,14 @@
+-- BUCLE FOR
+-- =========================
+
+CREATE OR REPLACE PROCEDURE SP_FOR_01
+IS
+BEGIN
+  FOR cont IN 1..10 LOOP
+    DBMS_OUTPUT.PUT_LINE('CONT = ' || cont);
+  END LOOP;
+END;
+
+SET SERVEROUTPUT ON
+CALL SP_FOR_01();
+

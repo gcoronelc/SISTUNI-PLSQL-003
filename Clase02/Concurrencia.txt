@@ -1,0 +1,6 @@
+
+connect eureka/admin@172.17.2.196:1521/orcl
+
+set servetoutput on
+
+call eureka.sp_proc_retiro('00200001', 5000,'123456', '0003');
