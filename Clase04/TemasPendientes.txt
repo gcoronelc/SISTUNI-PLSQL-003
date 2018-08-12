@@ -1,0 +1,17 @@
+- SQL Dinámico
+- Paquetes
+- Desencadenantes
+
+
+- Examen
+- ==========
+
+- Tarea de Clase 3
+- Procedimiento que le pase varios datos en una 
+  cadena de los empleados y los registre. (SCOTT)
+- Procedimiento que permita hacer un cambio de
+  curso matriculado en EDUCA.
+
+
+
+
