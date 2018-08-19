@@ -1,13 +1,16 @@
-create or replace package pkg_demo as
+create or replace package scott.pkg_demo as
 
 	function suma( n1 in number, n2 in number)
+	return number;
+	
+	function suma( n1 in number, n2 in number, n3 in number)
 	return number;
 
 end pkg_demo;
 /
 
 
-create or replace package body pkg_demo as
+create or replace package body scott.pkg_demo as
 
 	function suma( n1 in number, n2 in number)
 	return number
@@ -17,12 +20,24 @@ create or replace package body pkg_demo as
 		v_suma := n1 + n2;
 		return v_suma;
 	end;
+	
+	function suma( n1 in number, n2 in number, n3 in number)
+	return number
+	is
+		v_suma number;
+	begin
+		v_suma := n1 + n2 + n3;
+		return v_suma;
+	end;
 
 end pkg_demo;
 /
 
 
 select scott.pkg_demo.suma( 23, 45 ) SUMA
+from dual;
+
+select scott.pkg_demo.suma( 23, 45, 18 ) SUMA
 from dual;
 
 
