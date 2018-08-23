@@ -1,0 +1,31 @@
+Nombre: Alejandro Antonio Villanueva Fernández
+
+EJERCICIO
+------------------------------------
+1.Desarrollar un SP que permita consultarlo siguiente:
+
+Cursor 1: Resumen por moneda
+-----------------------------
+
+CODIGO  DESCRIPCION CUENTAS IMPORTE
+--------------------------------------
+01      SOLES       ##      ##,###.##
+02      DOLARES     ##      ##,###.##
+---------------------------------------
+
+Cursor 2: Resumen por SUCURSAL
+-------------------------------
+
+CODIGO  DESCRIPCION MONEDA CUENTAS IMPORTE
+---------------------------------------------
+001     Aaaaaa      01     ##      ##,###.##
+001     Aaaaaa      02     ##      ##,###.##
+002     Aaaaaa      01     ##      ##,###.##
+002     Aaaaaa      02     ##      ##,###.##
+---------------------------------------------
+
+2.- Procedimiento que le pase varios datos en una 
+  cadena de los empleados y los registre. (SCOTT)
+3.- Procedimiento que permita hacer un cambio de
+  curso matriculado en EDUCA.
+
